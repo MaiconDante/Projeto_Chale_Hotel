@@ -1,0 +1,75 @@
+<!DOCTYPE html> <!-- Referência de que se trata de um HTML 5 -->
+<html lang="pt-br" dir="ltr"> <!-- Configuração da linguagem que seu HTML foi desenvolvido e o DIR, é a direção que o conteúdo é lido no seu site como padrão -->
+  <head> <!-- Configurações importantes dentro do seu HTML -->
+    <meta charset="UTF-8" /> <!-- Configuração que define o conjunto de caracteres usado: exemplo os caracteres especiais da nossa lingua com acentuação -->
+    <meta name="keywords" content="HTML, CSS, JAVASCRIPT"> <!-- Define palavras-chave para mecanismos de busca -->
+    <meta name="description" content="Site desenvolvido para fins de estudo da tecnologia HTML"> <!-- Define uma descrição para sua página web -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!-- Garantir que uma página HTML seja renderizada no modo mais moderno possível no IE (hoje em desuso, mas ainda aparece em sistemas legados) -->
+    <meta name="author" content="Maicon Dante"> <!-- Define o autor de uma página -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Configura a janela de visualização para que seu site tenha uma boa aparência em todos os dispositivos -->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon"> <!-- Define o ícone da página -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Chalé Hotel</title> <!-- Título da página, nome que aparece na aba quando aberto a página -->
+  </head>
+<body>
+    <header id="container"> <!-- Início Container -->
+        <div id="topo"> <!-- Início Topo -->
+            <div id="area-logo">
+                <h1 class="logo"><a href="">Chalé Hotel</a></h1>
+            </div>
+            <div id="area-menu">
+                <div id="conteudo-menu">
+                    <div id="menu-locais">
+                        <span class="locais">Rio de Janeiro - São Paulo - Belo Horizonte</span>
+                        <a class="reserva" href="#">Reservar</a>
+                        <div style="clear: both;"> </div>
+                    </div>
+                    <nav id="menu">
+                        <ul id="navegacao">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">História</a></li>
+                            <li><a href="#">Imprensa</a></li>
+                            <li><a href="#">Gastronomia</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>
+                        <img class="depoimento" src="./assets/images/depoimento.png" alt="Depoimento">
+                    </nav>
+                </div>
+            </div>
+        </div> <!-- Fim Topo -->
+    </header> <!-- Fim Container -->
+    <main>
+        <section id="area-principal">
+            <div class="conteudo">
+                <h2>Chalé dos sonhos e confortável</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus tempore accusantium perferendis culpa suscipit officiis nobis, quo rerum quod id voluptatum doloribus ipsum sed voluptate. Nihil, pariatur quos praesentium cum magnam facilis debitis beatae facere? Deleniti error quo neque exercitationem impedit soluta magni! Eligendi voluptas quas ab, accusantium consequatur maiores cupiditate ipsa ipsam adipisci ullam commodi ad tenetur cumque veritatis doloribus corrupti numquam quos enim. Hic, blanditiis explicabo. Eos repellendus illo officia asperiores eaque dicta magni dolorum quae aliquam voluptates?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum iusto doloremque praesentium doloribus magnam porro dolorum! Blanditiis totam sapiente minima, maxime voluptates quia expedita et laboriosam fugit repudiandae in vitae!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi voluptas quis at consectetur quo nemo suscipit maiores, provident voluptatibus esse amet enim vitae unde ipsa explicabo est. Recusandae impedit assumenda veritatis voluptate consequatur placeat ipsam nemo quisquam repudiandae, consectetur alias quam blanditiis dolor, est perferendis omnis doloribus. Id, reprehenderit error?</p>
+            </div>
+        </section>
+        <aside id="area-lateral">
+            <div class="conteudo">
+                <ul id="beneficios">
+                    <li><a href="#">
+                        <img src="./assets/images/apartamento.jpg" alt="apartamento" width="120">
+                        <h3>Apartamento</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa maiores asperiores officiis </p>
+                    </a></li>
+                    <li><a href="#">
+                        <img src="./assets/images/restaurante.jpg" alt="restaurante" width="120">
+                        <h3>Restaurante</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa</p>
+                    </a></li>
+                    <li><a href="#">
+                        <img src="./assets/images/piscina.jpg" alt="piscina" width="120">
+                        <h3>Piscina</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa maiores asperiores officiis sint fgd</p>
+                    </a></li>
+                </ul>
+            </div>
+        </aside>
+        <div class="clear"></div>
+    </main>
+    <footer><p><strong>&copy; Copyright - 2000-2025 Chalé Hotel &trade;</strong></p></footer>
+</body>
+</html>
